@@ -27,7 +27,7 @@ Starting a New Project:
 
 Getting the Devise gem installed
 - Add the Devise gem to the Gemfile (devisedemo > Gemfile)
-    gem 'Devise'
+    gem 'devise'
 - Run the bundle command to install the new gem
     bundle install
 - Run the generator
