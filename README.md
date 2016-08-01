@@ -1,24 +1,35 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby version: 2.3.1
+Rails version: 5
 
-Things you may want to cover:
+Purpose of this Demo:
 
-* Ruby version
+I want to learn more about the Devise gem and all the features I might be able to incorporate in future websites. 
 
-* System dependencies
 
-* Configuration
+Topics to Learn:
+- Setting up User's database
+- Setting up Admin login
+- Sessions and cookies
+- Creating a preferences page for users
+- Setting up email confirmations
 
-* Database creation
 
-* Database initialization
+Starting a New Project:
+- Creating the initial rails app
+    rails new devisedemo
+- Setting up git
+    git init
+    git add .
+    git commit -m "Message"
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+Getting the Devise gem installed
+- Add the Devise gem to the Gemfile (devisedemo > Gemfile)
+    gem 'Devise'
+- Run the bundle command to install the new gem
+    bundle install
+- Run the generator
+    rails generate devise:install
 
-* Deployment instructions
-
-* ...
