@@ -26,10 +26,13 @@ Starting a New Project:
 
 
 Getting the Devise gem installed
-- Add the Devise gem to the Gemfile (devisedemo > Gemfile)
+- Add the Devise gem to the Gemfile (devisedemo/Gemfile)
     gem 'devise'
 - Run the bundle command to install the new gem
     bundle install
 - Run the generator
     rails generate devise:install
-
+- Add Default URL Options for Development Environment (devisedemo/config/environments/development.rb)
+    config.action_mailer.default_url_options = {host: 'localhost', port: 3000}
+- Generate a New Devise Model
+    rails generate devise User
