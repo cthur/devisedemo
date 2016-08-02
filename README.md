@@ -36,3 +36,12 @@ Getting the Devise gem installed
     config.action_mailer.default_url_options = {host: 'localhost', port: 3000}
 - Generate a New Devise Model
     rails generate devise User
+- Migrate Devise Model
+    rake db:migrate
+
+Generating Views and Controllers for Customizability 
+- Configure Scoped Views (devisedemo/config/initializers/devise.rb)
+   config.scoped_views = true
+- Generate Views
+   rails generate devise:views
+
