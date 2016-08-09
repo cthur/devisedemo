@@ -24,7 +24,6 @@ Starting a New Project:
     git add .
     git commit -m "Message"
 
-
 Getting the Devise gem installed
 - Add the Devise gem to the Gemfile (devisedemo/Gemfile)
     gem 'devise'
@@ -44,4 +43,6 @@ Generating Views and Controllers for Customizability
    config.scoped_views = true
 - Generate Views
    rails generate devise:views
+- Generate Controllers
+   rails generate devise:controllers [scope]
 
